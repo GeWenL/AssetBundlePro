@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 870901141
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0d17ff2eb55bd6f8df8ca61385f355a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 21f0dc8ebad690f009368069428e0a1a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- "Assets/MyRaidUI/\u5FBD\u7AE03.png"
+Dependencies: []

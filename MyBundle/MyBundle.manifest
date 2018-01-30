@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 4173241313
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: noneimg
+      Dependencies: {}
+    Info_1:
+      Name: tex1
+      Dependencies: {}
+    Info_2:
+      Name: tex2
+      Dependencies: {}
+    Info_3:
+      Name: tex3
+      Dependencies: {}
+    Info_4:
+      Name: prefabsp1
+      Dependencies:
+        Dependency_0: tex1
+    Info_5:
+      Name: prefabsp2
+      Dependencies:
+        Dependency_0: tex2
+    Info_6:
+      Name: prefabsp3
+      Dependencies:
+        Dependency_0: tex3
+    Info_7:
+      Name: prefabsp12
+      Dependencies:
+        Dependency_0: tex1
+        Dependency_1: tex2
+    Info_8:
+      Name: prefabsp123
+      Dependencies:
+        Dependency_0: tex1
+        Dependency_1: tex2
+        Dependency_2: tex3
