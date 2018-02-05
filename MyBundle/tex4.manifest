@@ -1,15 +1,17 @@
 ManifestFileVersion: 0
-CRC: 1979638931
+CRC: 4113134170
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f5850d9e30ab51aa9b6c1b0e5e5ae3b3
+    Hash: 4823a6726bfe7b67bf245d07f7f9f2f7
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 4cd0a5558493b0679e071c141fc729a3
+    Hash: 21f0dc8ebad690f009368069428e0a1a
 HashAppended: 0
 ClassTypes:
 - Class: 28
+  Script: {instanceID: 0}
+- Class: 213
   Script: {instanceID: 0}
 Assets:
 - Assets/MyRaidUI/tex4.png
