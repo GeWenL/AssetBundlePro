@@ -15,10 +15,11 @@ public class LoadPrefabAB : MonoBehaviour
 		
 		 if (bundle == null)
          {
-             Debug.Log("未生成ab包，点击【Tools/生成ab包】生成");
+             Debug.Log("未生成ab包，点击【Tools/生成不压缩的ab包】生成");
              return;
          }
-         AssetBundle bundle1 = AssetBundle.LoadFromFile(Application.dataPath + "/../MyBundle/tex1");
+         AssetBundle.LoadFromFile(Application.dataPath + "/../MyBundle/tex1");
+		 AssetBundle.LoadFromFile(Application.dataPath + "/../MyBundle/tex2");
 		 GameObject prefab = bundle.LoadAsset<GameObject> ("Sprite123");
 		 GameObject Sprite1234 = Instantiate (prefab);
 		 Sprite1234.transform.SetParent (transform);
